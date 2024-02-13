@@ -1,0 +1,62 @@
+@font-face {
+    font-family:'starborn' ;
+    src: url(font/Starborn.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #ffccdd
+    
+}
+button {
+    background-color: #ff89b0; /* Green */
+    border: none;
+    width: 100;
+    height: 50px;
+    color: rgb(179, 105, 166);
+    padding: 0.7em 1.7em;
+    text-align: justify;
+    font-family: 'starborn', sans-serif;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #ff89b0;
+  cursor: pointer;
+  border: 1px solid #ff89b0;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #ff89b0, -6px -6px 12px #ff89b0;
+  }
+  button:active {
+    color: #ff89b0;
+  box-shadow: inset 4px 4px 12px #ff89b0, inset -4px -4px 12px #ffffff;
+  }
+
+.fuck /* image */{
+    display: flex; 
+    align-self: center;
+    justify-content: center;
+    border-radius: 50%; 
+}
+.shit {
+    font-family: 'starborn', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #ff72a1;
+    text-shadow: 0 10px 20px #c0718c;
+    
+    
+}
+.btn /*MOVING BUTTON*/ {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.btn button {
+    margin-right: 25px;
+    margin-top: 10px;
+}

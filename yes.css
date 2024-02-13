@@ -1,0 +1,26 @@
+@font-face {
+    font-family:'starborn' ;
+    src: url(font/Starborn.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0; /* Because annoying default browser margins */
+    background-color: #ffccdd;
+    
+  }
+  video {
+    rotate: -90deg;
+    display: block;
+    margin: 0 auto;
+    box-shadow: -10px 10px 15px #ff89b0
+  }
+.text {
+    font-family: 'starborn', 'sans serif';
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #ff89b0;
+}
